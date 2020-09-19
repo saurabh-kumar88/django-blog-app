@@ -3,8 +3,6 @@
 {% block content %}
 <title>Developer</title>
 <br><br>
-<!----------------------------Developer Section--------------------------------------->
-
 <style>
     li{
       text-align: left;
@@ -45,7 +43,7 @@
       <p>
         Main architecture of this app is relational database, we have mainly two database tables and relations
         Post-User (one--> many relation ,a user can have multiple post but each post can have only one author)
-        <img src="#" alt="">
+        <img class="w3-image" src="https://raw.githubusercontent.com/saurabh-kumar88/django-blog-app/master/relational-db.png" alt="">
         <br>
         same as Post-Comment (one --> many, a post can have many comments but a comment can only be associated to one post)
       </p>
@@ -53,7 +51,6 @@
       <p>
         Users can create account and create new post, edit & comment, all these info get stored and can maintained by 
         django's nice admin panel api.
-        <img src="" alt="">
       </p>
         
       <p>Users can request Password reset, this feature is implemented by django's class based
@@ -84,7 +81,14 @@
         for storage of users uploaded profile image,<br>
         once user uploaded profile image to s3 through form, then django only saves image file name in database, <br>
         a complete s3 file path is re-calculated every time code request user-profile image
-        <img src="" alt="">     
+        <div class="w3-raw">
+          <div class="w3-col">
+            <img class="w3-image" src="https://raw.githubusercontent.com/saurabh-kumar88/django-blog-app/master/image-name-db.png" alt="">
+          </div>
+          <div class="w3-col">
+            <img class="w3-image" src="https://raw.githubusercontent.com/saurabh-kumar88/django-blog-app/master/image-inspect.png" alt="">    
+          </div>
+        </div>
       </p>
 
       <p>
