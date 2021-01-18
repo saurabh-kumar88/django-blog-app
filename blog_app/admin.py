@@ -4,7 +4,7 @@ from .models import Post,Comment
 """
 super user : 
 sau88
-imgoingin20
+Imgoingin@20
 """
 
 
