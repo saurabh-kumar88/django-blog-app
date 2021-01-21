@@ -26,13 +26,7 @@
 <h4>Step 4: Set environment variables</h4>
 <h4>Step 4.1: Create a file into the root dir and name it .env (this will holds our environment variables)</h4>
 <h4>Step 4.2: Define these environment variables in .env file</h4>
-
-<h4>SQLALCHEMY_DATABASE_URI="mysql://username:password@server/db"</h4>
-<h4>="mysql://username:password@server/db"</h4>
-<h4>SQLALCHEMY_DATABASE_URI="mysql://username:password@server/db"</h4>
-<h4>SQLALCHEMY_DATABASE_URI="mysql://username:password@server/db"</h4>
-
-<h4>or if you are using postgreSQL</h4>
+  
 <h4>SECRET_KEY_BLOG_APP="your scecret key"</h4>
 <h4>EMAIL_USER="email id"</h4>
 <h4>EMAIL_PASSWD="Email password"</h4>
@@ -41,9 +35,9 @@
 <h4>AWS_STORAGE_BUCKET_NAME="aws s3 bucket name"</h4>
 
 <h4>Initialize database tables</h4>
-run python manage.py makemigrations blog_app
-run python manage.py makemigrations users_app
-run python manage.py migrate
+<h3>run python manage.py makemigrations blog_app</h3>
+<h3>run python manage.py makemigrations users_app</h3>
+<h3>run python manage.py migrate</h3>
 
 <h4>step 5: Start dev server by</h4>
 <h4>run python manage.py runserver</h4>
